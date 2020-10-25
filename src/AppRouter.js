@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "./screens/about";
 import Home from "./screens/home";
-import Projects from "./screens/projects";
+import Portfolio from "./screens/portfolio";
 import Contact from "./screens/contact";
 
 export default class AppRouter extends Component {
@@ -19,8 +19,8 @@ export default class AppRouter extends Component {
                     <Route path="/contact" exact>
                         <Contact></Contact>
                     </Route>
-                    <Route path="/projects">
-                        <Projects></Projects>
+                    <Route path="/portfolio">
+                        <Portfolio></Portfolio>
                     </Route>
                 </Switch>
             </Router>

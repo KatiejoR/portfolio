@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Menu from "../components/Menu";
 import Resume from "../images/KRhynes_Resume.pdf";
 
@@ -9,7 +11,11 @@ export default class About extends Component {
             <div>
                 <Menu />
                 <Container>
-                    <div><a href={Resume}></a></div>
+                    <Row className="justifty-content-md-center" >
+                        <Col md="auto">
+                            <object type="application/pdf" data={Resume}></object>
+                        </Col>
+                    </Row>
                 </Container> 
                 About Screen
             </div>

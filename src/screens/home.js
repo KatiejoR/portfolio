@@ -24,6 +24,11 @@ export default class Home extends Component {
                     </Row>
                     <Row className="justify-content-md-center">
                         <Col md="auto">
+                            -------------------------
+                        </Col>
+                    </Row>
+                    <Row className="justify-content-md-center">
+                        <Col md="auto">
                             Web Designer
                         </Col>
                     </Row>
