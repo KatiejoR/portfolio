@@ -31,9 +31,13 @@ export default class Portfolio extends Component {
                             </td>
                         </tr>
                         <tr>
-                            <td> &nbsp; </td>
-                            <td> &nbsp; </td>
-                            <td> &nbsp; </td>
+                            <td> March 11, 2020 </td>
+                            <td> J&amp;S Irrigation Website </td>
+                            <td> 
+                                <Link to="/portfolio/companyJS/home">
+                                    <Button variant="link">J&amp;S Irrigation Website</Button>
+                                </Link>    
+                            </td>
                         </tr>
                         <tr>
                             <td> &nbsp; </td>

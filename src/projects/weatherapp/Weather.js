@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "../css/weather_component.css";
-import clouds from "../images/clouds.jpg";
-import Menu from "./Menu";
+import clouds from "../../images/clouds.jpg";
+import Menu from "../../components/Menu";
+import "./weather_component.css";
 
 export default function Weather() {
 
