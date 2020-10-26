@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "../css/weather_component.css";
+import clouds from "../images/clouds.jpg";
 
 export default function Weather() {
+
+    var bgStyle = {
+        backgroundImage: `url(${clouds})`
+    }
 
     const [city, setCity] = useState("");
     const [country, setCountry] = useState("");
@@ -29,7 +34,7 @@ export default function Weather() {
     };
 
     return (
-        <div class="bg">
+        <div class="bg" style={bgStyle}>
             <form className="form-inline" onSubmit={handleSubmit}>
                 <input 
                     type="text"
