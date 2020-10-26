@@ -1,7 +1,10 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button"
 import Menu from "../components/Menu";
 import Table from "react-bootstrap/Table";
+
 export default class Portfolio extends Component {
     render() {
         return (
@@ -19,9 +22,13 @@ export default class Portfolio extends Component {
                         </thead>
                         <tbody>
                         <tr>
-                            <td> &nbsp; </td>
-                            <td> &nbsp; </td>
-                            <td> &nbsp; </td>
+                            <td> Feb 16, 2020 </td>
+                            <td> Weather app </td>
+                            <td> 
+                                <Link to="/portfolio/weatherProject">
+                                    <Button variant="link">Weather app</Button>
+                                </Link>    
+                            </td>
                         </tr>
                         <tr>
                             <td> &nbsp; </td>
