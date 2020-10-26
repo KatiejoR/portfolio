@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "../css/weather_component.css";
 import clouds from "../images/clouds.jpg";
+import Menu from "./Menu";
 
 export default function Weather() {
 
@@ -34,7 +35,10 @@ export default function Weather() {
     };
 
     return (
+        <div>
+            <Menu></Menu>
         <div class="bg" style={bgStyle}>
+            
             <form className="form-inline" onSubmit={handleSubmit}>
                 <input 
                     type="text"
@@ -60,5 +64,6 @@ export default function Weather() {
                 </h4>
             </div>
         </div>
+    </div>
     )
 }
