@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+import { Link } from "react-router-dom";
 
 export default function Menu() {
     return (
@@ -10,9 +10,9 @@ export default function Menu() {
             <Navbar.Toggle />
             <Navbar.Collapse>
                 <Nav className="ml-auto">
-                    <Nav.Link><Link style={{color: "black"}} to="/about">About</Link></Nav.Link>
-                    <Nav.Link><Link style={{color: "black"}} to="/contact">Contact</Link></Nav.Link>
-                    <Nav.Link><Link style={{color: "black"}} to="/portfolio">Portfolio</Link></Nav.Link>
+                    <Nav.Link href="/about" style={{color: "black"}}>About</Nav.Link>
+                    <Nav.Link href="/contact" style={{color: "black"}}>Contact</Nav.Link>
+                    <Nav.Link href="/portfolio" style={{color: "black"}}>Portfolio</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

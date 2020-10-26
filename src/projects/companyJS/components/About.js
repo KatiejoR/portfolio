@@ -8,35 +8,35 @@ const About = () => {
     return (
         <>
         <Navbar />
-        <div class="container">
-            <h3 class="center-align ">About </h3>
-        <div class="row">   
-            <div class="col s12">
+        <div className="container">
+            <h3 className="center-align ">About </h3>
+        <div className="row">   
+            <div className="col s12">
                 <blockquote >
                 Improper irrigation design and watering techniques are the main cause of landscape water waste.
                 We are dedicated on the design and intallation of the most water efficient lawn sprinkler systems.
                 </blockquote>
             </div>
         </div>
-        <div class="row">
-                <div class="col s6 m6">
-                    <div class="card">
-                        <div class="card-image">
+        <div className="row">
+                <div className="col s6 m6">
+                    <div className="card">
+                        <div className="card-image">
                         <img src={SrPhoto} />
-                            <span class="card-title">Servando Sr.</span>
+                            <span className="card-title">Servando Sr.</span>
                         </div>
-                        <div class="card-content">
+                        <div className="card-content">
                             <p>Business owner of J&amp;S Irrigation with over 15 years of experience.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col s6 m6">
-                    <div class="card">
-                        <div class="card-image">
+                <div className="col s6 m6">
+                    <div className="card">
+                        <div className="card-image">
                         <img src={JrPhoto} />
-                            <span class="card-title">Servando Jr.</span>
+                            <span className="card-title">Servando Jr.</span>
                         </div>
-                        <div class="card-content">
+                        <div className="card-content">
                             <p>Servando Jr. has been licensed since 2015.</p>
                         </div>
                     </div>

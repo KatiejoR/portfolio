@@ -8,24 +8,24 @@ const Services = () => {
         <Navbar></Navbar>
         <div className="container">
             <h3 className="center-align">Services</h3>
-            <div class="row">
-                <div class="col s12">
-                    <blockquote class="z-depth-1">
+            <div className="row">
+                <div className="col s12">
+                    <blockquote className="z-depth-1">
                     <p>We are knowledgeable about the lawn sprinkler industry and sprinkler system repairs.</p>
                     <p>With over 15 years of experience, we are proud to help homeowners who are having problems with their sprinkler systems and those who are looking for the best water efficient lawn sprinkler system.</p>
                     <p>If you have any sprinkler system problems or questions, feel free to contact us today. We are more than happy to help.</p>
                     </blockquote>
                 </div>
             </div>
-            <div class="row">
-            <div class="col s6">
-                    <table class="striped">
-                        <thead class="z-depth-1">
+            <div className="row">
+            <div className="col s6">
+                    <table className="striped">
+                        <thead className="z-depth-1">
                             <tr>
                                 <th>System Installation</th>
                             </tr>
                         </thead>
-                        <tbody class="z-depth-1">
+                        <tbody className="z-depth-1">
                             <tr>
                                 <td>Discuss with the property owner.</td>
                             </tr>
@@ -53,14 +53,14 @@ const Services = () => {
                         </tbody>
                     </table>
                 </div>
-                <div class="col s6">
-                    <table class="striped">
-                        <thead class="z-depth-1">
+                <div className="col s6">
+                    <table className="striped">
+                        <thead className="z-depth-1">
                             <tr>
                                 <th>System Repair</th>
                             </tr>
                         </thead>
-                        <tbody class="z-depth-1">
+                        <tbody className="z-depth-1">
                             <tr>
                                 <td>Broken sprinkler heads</td>
                             </tr>

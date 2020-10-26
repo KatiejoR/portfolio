@@ -30,37 +30,37 @@ const Home = () => {
         <Navbar />
         <div className="container">
             <h3 className="center-align"><img src={logo2} /></h3>
-            <div class="row">
-                <div class="col s6">
-                    <p class="flow-text" >
+            <div className="row">
+                <div className="col s6">
+                    <p className="flow-text" >
                     J&amp;S Irrigation is a family owned business with over a decade of experience in the irrigation industry.
                     Our goal is to educate our customers about good lawn watering practices in order to conserve water.
                     Overwatering is main cause of landscape water waste and contributes to more than 50% waste
                     due to evaporation and runoff.
                     </p>
-                    <p class="flow-text">Designing an efficient sprinkler system is a key step towards conserving water and maintaing a healthy lawn.</p>
+                    <p className="flow-text">Designing an efficient sprinkler system is a key step towards conserving water and maintaing a healthy lawn.</p>
                 </div>
-                <div class="col s6" >
-                    <ul class="collection" >
-                        <li class="collection-item avatar">
-                            <i class="far fa-address-card left"></i>
-                            <span class="title"> John Doe</span>
+                <div className="col s6" >
+                    <ul className="collection" >
+                        <li className="collection-item avatar">
+                            <i className="far fa-address-card left"></i>
+                            <span className="title"> John Doe</span>
                             <p>Got my sprinkler system installed by these guys and my lawn is so green!</p>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                            <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star-half-alt"></i>
                         </li>
-                        <li class="collection-item avatar">
-                            <i class="far fa-address-card left"></i>
-                            <span class="title"> Sarah Smith</span>
+                        <li className="collection-item avatar">
+                            <i className="far fa-address-card left"></i>
+                            <span className="title"> Sarah Smith</span>
                             <p>I called them for an emergency repair and they showed up quick and fixed the problem.</p>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                            <i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i><i className="fas fa-star"></i>
                         </li>
                     </ul>
                 </div>
-                    <div class="row">
-                        <div class="col s6">
-                                <div class="card-panel cyan darken-1">
+                    <div className="row">
+                        <div className="col s6">
+                                <div className="card-panel cyan darken-1">
                                     <div className="center-align">
-                                        <span class="white-text">
+                                        <span className="white-text">
                                             <h6>Call or Email us at:</h6>
                                             (469) 360-6894
                                              <br/>
@@ -71,8 +71,8 @@ const Home = () => {
                         </div>
                     </div>
             </div>
-            <div class="row">
-                <div class="col s12">
+            <div className="row">
+                <div className="col s12">
                     <h4 className="center-align">Sample designs</h4>
                 </div>
             </div>

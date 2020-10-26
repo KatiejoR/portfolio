@@ -37,7 +37,7 @@ export default function Weather() {
     return (
         <div>
             <Menu></Menu>
-        <div class="bg" style={bgStyle}>
+        <div className="bg" style={bgStyle}>
             
             <form className="form-inline" onSubmit={handleSubmit}>
                 <input 

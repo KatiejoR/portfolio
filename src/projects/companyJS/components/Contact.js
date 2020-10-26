@@ -27,51 +27,48 @@ const Contact = () => {
 
             <Row className="justify-content-md-center">
             <Form onSubmit={handleSubmit}>
+                <Form.Group>
                 <Row>
                     <Col sm="auto">
-                    <div class="input-field">
-                        <input  id="first_name" type="text" class="validate"/>
-                        <label for="first_name">First Name</label>
+                    <div className="input-field">
+                        <input  id="first_name" type="text" className="validate" placeholder="First Name"/>
+                        <label htmlFor="first_name"></label>
                     </div>
                     </Col>
                     
                 </Row>
                 <Row>
                     <Col sm="auto">
-                        <div class="input-field">
-                           <input  id="last_name" type="text" class="validate "/>
-                            <label for="last_name">Last Name</label> 
+                        <div className="input-field">
+                           <input  id="last_name" type="text" className="validate" placeholder="Last Name"/>
+                            <label htmlFor="last_name"></label> 
                         </div>
                         
                     </Col>
                 </Row>
-                        
-                <Row>
-                    <Col sm="auto">
-                      <div class="input-field">
-                        <input id="icon_telephone" type="tel" class="validate"/>
-                        <label for="icon_telephone"><i class="fas fa-phone-alt left"></i> Telephone</label>
+                </Form.Group>
+                
+                <Form.Group as={Row}>
+                    <i className="fas fa-phone-alt left"></i>
+                      <div className="input-field">
+                        <input id="icon_telephone" type="tel" className="validate" placeholder="Telephone"/>
                     </div>  
-                    </Col>
-                </Row>     
-                
-                <Row>
-                    <Col sm="auto">
-                        <div class="input-field">
-                            <input id="email" type="text" class="validate"/>
-                            <label for="email"><i class="fas fa-paper-plane left"></i> Email</label>
+                </Form.Group>  
+                    
+                <Form.Group as={Row}>
+                    <i className="fas fa-paper-plane left"></i>
+                    <div className="input-field">
+                        <input id="email" type="text" className="validate" placeholder="Email"/>
+                    </div>
+                </Form.Group>
+                    
+                <Form.Group as={Row}>
+                    <i className="fas fa-comment left"></i>
+                        <div className="input-field">
+                            <textarea id="textarea1" className="materialize-textarea" placeholder="Message"></textarea>
                         </div>
-                    </Col>
-                </Row>
-                
-                <Row>
-                    <Col sm="auto">
-                       <div class="input-field">
-                            <textarea id="textarea1" class="materialize-textarea"></textarea>
-                            <label for="textarea1"><i class="fas fa-comment left"></i> Message</label>
-                        </div> 
-                    </Col>
-                </Row>
+                </Form.Group>
+                        
                     
 
                     
