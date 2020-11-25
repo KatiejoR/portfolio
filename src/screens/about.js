@@ -10,17 +10,15 @@ export default class About extends Component {
         return (
             <div>
                 <Menu />
-                <br/>
+                <br />
                 <Container>
-                    <Row className="justifty-content-md-center" >
-                        <Col md="auto">
-                            <object type="application/pdf" data={Resume} style={{height: 800, width: 750}} ></object>
-                        </Col>
-                    </Row>
-                </Container> 
-                About Screen
+                    <div style={{textAlign: "center"}}>
+                        <object type="application/pdf" data={Resume} style={{ height: "90vh", width: "75%"}} ></object>
+                    </div>
+                </Container>
+
             </div>
-            
+
         )
     }
 }

@@ -78,7 +78,7 @@ export default class Portfolio extends Component {
                     </tbody>
                     </Table>
                 </Container>
-                ProjectScreens
+                
             </div>
             
         )
